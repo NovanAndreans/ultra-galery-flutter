@@ -6,6 +6,7 @@ import 'package:ultraman/screens/homepage.dart';
 
 class ubah_mahasiswa extends StatelessWidget {
   final Map mahasiswa;
+  
   ubah_mahasiswa({@required this.mahasiswa});
   final _formKey = GlobalKey<FormState>();
   TextEditingController namCont = TextEditingController();

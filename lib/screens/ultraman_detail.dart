@@ -16,7 +16,6 @@ class mahasiswa_detail extends StatelessWidget {
           child: Column(
             children: [
               Container(
-                margin: const EdgeInsets.only(top: 20.0),
                 child: Image.network(ultraman['ult_pic']),
                 
               ),
